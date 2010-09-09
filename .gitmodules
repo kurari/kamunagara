@@ -1,0 +1,15 @@
+[submodule "lib/object"]
+	path = lib/object
+	url = git@github.com:kurari/NyaaObject.git
+[submodule "lib/store"]
+	path = lib/store
+	url = git@github.com:kurari/NyaaStore.git
+[submodule "lib/log"]
+	path = lib/log
+	url = git@github.com:kurari/NyaaLog.git
+[submodule "lib/db"]
+	path = lib/db
+	url = git@github.com:kurari/NyaaDB.git
+[submodule "lib/templater"]
+	path = lib/templater
+	url = git@github.com:kurari/NyaaTemplater.git
