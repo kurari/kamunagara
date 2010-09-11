@@ -1,0 +1,22 @@
+hr.clear {
+	clear : both;
+	border : none;
+}
+body {
+	margin : 0px;
+	padding : 0px;
+}
+/**
+* 基本パーツ
+*/
+#header {
+background-color                       : #3B5998;
+color                                  : #F0F0F0;
+padding                                : 10px 10px 0px 10px;
+position                               : relative;
+font-size                              : 12px;
+}
+#header h1 {
+float                                  : left;
+font-size                              : 150%;
+}
