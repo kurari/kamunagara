@@ -19,3 +19,6 @@
 [submodule "lib/conf"]
 	path = lib/conf
 	url = git@github.com:kurari/NyaaConf.git
+[submodule "lib/cache"]
+	path = lib/cache
+	url = git@github.com:kurari/NyaaCache.git

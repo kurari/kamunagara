@@ -1,1 +1,0 @@
-/home/kurari/WEB/kamunagara/package/system/app/default.class.php

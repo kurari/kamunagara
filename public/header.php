@@ -9,8 +9,8 @@ require_once 'cache/cache.class.php';
 NyaaCache::stack(
 	NyaaCache::factory(
 		'dir',
-		'SESSION',
-		array('path'=>ROOT.'/site/cache')
+		'CACHE',
+		array('path'=>ROOT.'/site/var/cache')
 	)
 );
 
