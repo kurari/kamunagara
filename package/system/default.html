@@ -1,0 +1,24 @@
+{{snippet app="system.default.pkgInfo"}}
+<h2>アプリケーション情報</h2>
+<table class="infomation_table">
+	{{foreach from=$app key=k value=v}}
+	<tr>
+		<td><a href="{{$conf.site.url}}/index.php/app/{{$k}}">{{$k}}</a></td>
+		<td>{{$v.info}}</td>
+		<td>{{$v.file}}</td>
+		<td>{{$v.class}}</td>
+	</tr>
+	{{/foreach}}
+</table>
+
+<h2>テンプレート情報</h2>
+<table class="infomation_table">
+	{{foreach from=$template key=k value=v}}
+	<tr>
+		<td>{{$k}}</td>
+		<td>{{$v.info}}</td>
+		<td>{{$v.file}}</td>
+	</tr>
+	{{/foreach}}
+</table>
+{{/snippet}}
