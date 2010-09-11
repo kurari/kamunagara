@@ -13,3 +13,9 @@
 [submodule "lib/templater"]
 	path = lib/templater
 	url = git@github.com:kurari/NyaaTemplater.git
+[submodule "lib/fw"]
+	path = lib/fw
+	url = git@github.com:kurari/NyaaFW.git
+[submodule "lib/conf"]
+	path = lib/conf
+	url = git@github.com:kurari/NyaaConf.git
