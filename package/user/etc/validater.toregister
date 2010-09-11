@@ -1,0 +1,5 @@
+[nullcheck]
+type=notnull
+target.0 = email
+message = %fieldLANG{is must be not empty}
+message_sep = LANG{FIELD_SEP}

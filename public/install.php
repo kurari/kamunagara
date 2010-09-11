@@ -19,7 +19,7 @@ $installer = NyaaFW::factory( $file, array(
 //$installer->update('system');
 //$installer->run( );
 
-$install = array('system');
+$install = array('system','user');
 foreach($install as $package)
 {
 	$installer->install( $package );

@@ -1,0 +1,34 @@
+<h1>LANG{USER LOGIN}</h1>
+
+{{snippet app="user.form"}}
+
+{{foreach from=$result->getOr('errors',array())}}
+<li>{{$v}}</li>
+{{/foreach}}
+
+{{$form->toHead()}}
+<table>
+	{{foreach from=$form->getInputs('email','password')}}
+	<tr>
+		<td>{{$v->toLabel()}}</td>
+		<td>{{$v->toHtml()}}</td>
+	</tr>
+	{{/foreach}}
+
+	{{foreach from=$form->getInputs('first','save')}}
+	<tr>
+		<td>&nbsp;</td>
+		<td>{{$v->toHtml()}}{{$v->toLabel()}}</td>
+	</tr>
+	{{/foreach}}
+
+	<tr>
+		<td>&nbsp;</td>
+		<td>{{$form->getInput('submit')->toHtml()}}</td>
+	</tr>
+
+</table>
+
+{{$form->toTail()}}
+
+{{/snippet}}

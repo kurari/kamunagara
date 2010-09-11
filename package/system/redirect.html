@@ -1,1 +1,13 @@
-<h1>Redirect</h1>
+<html>
+	<body>
+		<form action="{{$request.to}}" method="post" id="redirect-form">
+			{{foreach from=$request}}
+			<input type="text" name="{{$k}}" value="{{$v | nohtml}}" />
+			{{/foreach}}
+			<input type="submit"  value="Redirect" />
+		</form>
+		<script>
+			document.getElementById('redirect-form').submit();
+		</script>
+	</body>
+</html>

@@ -22,3 +22,9 @@
 [submodule "lib/cache"]
 	path = lib/cache
 	url = git@github.com:kurari/NyaaCache.git
+[submodule "lib/form"]
+	path = lib/form
+	url = git@github.com:kurari/NyaaForm.git
+[submodule "lib/validater"]
+	path = lib/validater
+	url = git@github.com:kurari/NyaaValidater.git
